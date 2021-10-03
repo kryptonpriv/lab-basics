@@ -1,20 +1,15 @@
 package pl.edu.wszib.lab1.mypackage;
 
-import pl.edu.wszib.lab1.MyClass;
+public class MyPackageClass {
+    public String name;
+    protected String name1;
+    String name2;
+    private String name3;
 
-public class MyPackageClass extends MyClass {
-    //public
-    //protected
-    //default/package-private
-    //private
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-        MyClass myClass = new MyClass();
-        myClass.name = "Name";
-        myClass.name1 = "Name1";
-        myClass.name2 = "Name2";
-        myClass.print();
+    public void print() {
+        System.out.println("Name: " + name);
+        System.out.println("Name1: " + name1);
+        System.out.println("Name2: " + name2);
+        System.out.println("Name3: " + name3);
     }
-
 }
