@@ -1,5 +1,7 @@
 package pl.edu.wszib.lab1;
 
+import pl.edu.wszib.lab1.mypackage.MyPackageClass;
+
 public class MyClass {
     public String name;
     protected String name1;
@@ -16,5 +18,11 @@ public class MyClass {
         System.out.println("Name1: "+ name1);
         System.out.println("Name2: "+ name2);
         System.out.println("Name3: "+ name3);
+    }
+    public static void printStatic(){
+        System.out.println("Name: "+ staticName);
+        System.out.println("Name1: "+ staticName1);
+        System.out.println("Name2: "+ staticName2);
+        System.out.println("Name3: "+ staticName2);
     }
 }

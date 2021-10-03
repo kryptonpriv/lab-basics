@@ -22,8 +22,8 @@ public class Main {
         myClass.name = "Name";
         myClass.name1 = "Name1";
         myClass.name2 = "Name2";
-        myClass.name3 = "Name3";
-        MyClass.print();
+        // myClass.name3 = "Name3";
+        myClass.print();
 //      myClass.printStatic();
 
 
